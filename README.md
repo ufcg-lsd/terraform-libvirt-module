@@ -19,7 +19,7 @@ provider "libvirt" {
 }
 
 module "node_pool_a" {
-  source    = "https://github.com/ufcg-lsd/terraform-libvirt-module.git"
+  source    = "git::https://github.com/ufcg-lsd/terraform-libvirt-module.git"
   providers = {
     libvirt.alternate = libvirt.hostname
   }

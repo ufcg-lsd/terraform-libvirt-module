@@ -31,8 +31,8 @@ module "node_pool_a" {
   networks = [{
     "interface" : "ens3",
     "bridge" : "br-0",
-    "address" : "10.0.1.2",
-    "gateway" : "10.6.0.1",
+    "address" : "10.0.0.2",
+    "gateway" : "10.0.0.1",
     "mask" : "24",
     "dns" : "8.8.8.8"
     }, {
